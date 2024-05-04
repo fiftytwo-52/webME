@@ -89,34 +89,28 @@ h1{
 }
 
 #eye{
-    margin: 10px 0px 0px 2px;
+    margin: 10px 0px 0px 0px;
     position: relative;
     height: 5px;
     width: 16px;
     background: rgb(255, 255, 255);
     bottom: 4px;
     align-items: center;
-    justify-content:space-between;
+    justify-content:center;
     display: flex;
 }
 #eye_left, #eye_right{
-    padding: 0px 1px 0px 1px;
-    height: 4px;
+        height: 4px;
     width: 4px;
     border-radius: 50%;
     background: rgb(0, 0, 0);
 }
 #mouth{
-    height: 12px;
-    width:7px;
+    height: 2px;
+    width:4px;
     background: red;
     align-items: center;
-    margin: 0px 10px 0px 7px;
-    overflow: hidden;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom: 1px solid yellow;
-    
+    margin: 0px 10px 0px 0px;
 
 }
 

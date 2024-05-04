@@ -107,7 +107,7 @@ h1{
     background: rgb(0, 0, 0);
 }
 #mouth{
-    height: 12px;
+    height: 10px;
     width:7px;
     background: red;
     align-items: center;
@@ -115,8 +115,6 @@ h1{
     overflow: hidden;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    border-bottom: 1px solid yellow;
-    
 
 }
 

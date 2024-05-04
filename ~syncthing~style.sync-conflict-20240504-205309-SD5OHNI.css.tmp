@@ -78,7 +78,7 @@ h1{
     width: 22px;
     margin-left: 2px;
     border-radius: 50%;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -89,37 +89,12 @@ h1{
 }
 
 #eye{
-    margin: 10px 0px 0px 2px;
     position: relative;
     height: 5px;
-    width: 16px;
-    background: rgb(255, 255, 255);
+    width: 19px;
+    background: rgb(255, 0, 0);
     bottom: 4px;
-    align-items: center;
-    justify-content:space-between;
-    display: flex;
 }
-#eye_left, #eye_right{
-    padding: 0px 1px 0px 1px;
-    height: 4px;
-    width: 4px;
-    border-radius: 50%;
-    background: rgb(0, 0, 0);
-}
-#mouth{
-    height: 12px;
-    width:7px;
-    background: red;
-    align-items: center;
-    margin: 0px 10px 0px 7px;
-    overflow: hidden;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom: 1px solid yellow;
-    
-
-}
-
 .txt_img_container{
     display: flex;
     /* border: 2px solid red; */

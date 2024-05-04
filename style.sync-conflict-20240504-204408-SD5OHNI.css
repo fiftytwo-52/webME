@@ -66,60 +66,17 @@ h1{
     /* border: 2px solid #fca311; */
 }
 #notch_left, #notch_right{
-    background: rgba(255, 255, 255, 0.446);
+    background: white;
     height: 20px;
-    width: 200px;
+    width: 120px;
     margin-left: 2px;
-    border-radius: 10px;
 }
 #notch_center{
-    height: 22px;
+    height: 20px;
     background: white;
-    width: 22px;
+    width: 10px;
     margin-left: 2px;
-    border-radius: 50%;
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-
 }
-#notch_center:hover{
-    transform: scale(1.2);
-    background: yellow;
-}
-
-#eye{
-    margin: 10px 0px 0px 2px;
-    position: relative;
-    height: 5px;
-    width: 16px;
-    background: rgb(255, 255, 255);
-    bottom: 4px;
-    align-items: center;
-    justify-content:space-between;
-    display: flex;
-}
-#eye_left, #eye_right{
-    padding: 0px 1px 0px 1px;
-    height: 4px;
-    width: 4px;
-    border-radius: 50%;
-    background: rgb(0, 0, 0);
-}
-#mouth{
-    height: 12px;
-    width:7px;
-    background: red;
-    align-items: center;
-    margin: 0px 10px 0px 7px;
-    overflow: hidden;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom: 1px solid yellow;
-    
-
-}
-
 .txt_img_container{
     display: flex;
     /* border: 2px solid red; */

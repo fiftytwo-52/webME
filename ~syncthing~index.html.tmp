@@ -16,18 +16,6 @@
         <div id="notch_left">
         </div>
         <div id="notch_center">
-            <div id="eye">
-                <div id="eye_left">
-
-                 </div>
-                 <div id="eye_right">
-
-                 </div>
-            </div>
-            <div id="mouth">
-
-            </div>
-
         </div>
         <div id="notch_right">
         </div>

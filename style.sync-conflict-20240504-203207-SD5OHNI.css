@@ -65,61 +65,18 @@ h1{
     color: yellow
     /* border: 2px solid #fca311; */
 }
-#notch_left, #notch_right{
-    background: rgba(255, 255, 255, 0.446);
-    height: 20px;
-    width: 200px;
-    margin-left: 2px;
-    border-radius: 10px;
-}
-#notch_center{
-    height: 22px;
-    background: white;
-    width: 22px;
-    margin-left: 2px;
-    border-radius: 50%;
+.git_logo{
     /* display: flex; */
-    align-items: center;
-    justify-content: center;
-
-}
-#notch_center:hover{
-    transform: scale(1.2);
-    background: yellow;
-}
-
-#eye{
-    margin: 10px 0px 0px 2px;
-    position: relative;
-    height: 5px;
-    width: 16px;
-    background: rgb(255, 255, 255);
-    bottom: 4px;
-    align-items: center;
-    justify-content:space-between;
-    display: flex;
-}
-#eye_left, #eye_right{
-    padding: 0px 1px 0px 1px;
-    height: 4px;
-    width: 4px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-    background: rgb(0, 0, 0);
+    right:15px;
+    /* position: absolute; */
+    background-size: cover;
 }
-#mouth{
-    height: 12px;
-    width:7px;
-    background: red;
-    align-items: center;
-    margin: 0px 10px 0px 7px;
-    overflow: hidden;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom: 1px solid yellow;
-    
-
+.git_logo:hover {
+    border: 2px solid #fca311;
 }
-
 .txt_img_container{
     display: flex;
     /* border: 2px solid red; */
