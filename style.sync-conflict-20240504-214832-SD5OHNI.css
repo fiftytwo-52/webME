@@ -68,7 +68,7 @@ h1{
 #notch_left, #notch_right{
     background: rgba(255, 255, 255, 0.446);
     height: 20px;
-    width: 150px;
+    width: 200px;
     margin-left: 2px;
     border-radius: 10px;
 }
