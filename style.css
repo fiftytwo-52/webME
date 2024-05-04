@@ -66,7 +66,7 @@ h1{
     /* border: 2px solid #fca311; */
 }
 #notch_left, #notch_right{
-    background: rgba(255, 255, 255, 0.446);
+    background: rgba(0, 0, 0, 0.446);
     height: 20px;
     width: 150px;
     margin-left: 2px;
@@ -171,10 +171,40 @@ h1{
   z-index: 2;
   /* overflow:visible; */
 }
+.hire_button{
+    height: 29px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    padding: 3px;
+    height: 25px;
+    font-size: 8px;
+    width: 95px;
+    margin: 0px 20px 0px 0px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    transition: transform 0.4s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+#button_in_blue{
+    background: skyblue;
+}
+
+#button_in_orange{
+    background: orange;
+}
 .main_text_heading{
-    background:#ff0000;
+       background:#ff0000;
     margin: 5px 10px 10px 20px;
-    color: #fca311;
+    color: #000000;
     transition: transform 0.5s;
 }
 .main_text_heading:hover{
@@ -224,9 +254,9 @@ footer{
     display: flex;
 }
 .box_content_heading{
-    background: red;
+    background: rgb(200, 200, 200);
     margin: 0px 0px 3px 0px;
 }
 .box_content_body{
-    background: green;
+    background: rgb(129, 223, 129);
 }
